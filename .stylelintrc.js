@@ -4,5 +4,5 @@ module.exports = {
   rules: {
     'prettier/prettier': true
   },
-  ignoreFiles:['node_modules/**/*.scss','src/index.scss']
+  ignoreFiles:['node_modules','src/index.scss']
 };
