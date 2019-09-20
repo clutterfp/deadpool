@@ -3,5 +3,6 @@ module.exports = {
   plugins: ['stylelint-scss', 'stylelint-prettier'],
   rules: {
     'prettier/prettier': true
-  }
+  },
+  ignoreFiles:['node_modules/**/*.scss','src/index.scss']
 };
